@@ -1,7 +1,7 @@
 # ***Ghost Orchestra***
 A semi-personal project that uses AI* to dynamically generate supporting and background instrumentals
 
-              [MIDI Input from keyboard]
+              [MIDI Input from instrument]
                           ↓
                     [Trained AI]
                           ↓
