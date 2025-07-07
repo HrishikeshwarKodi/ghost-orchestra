@@ -10,6 +10,26 @@ A semi-personal project that uses AI* to dynamically generate supporting and bac
     [Accompaniment is played along with the actual]
 
 AI is going to be run locally*
+
+
+Current plan:
+
+    ┌────────────┐      ┌────────────────┐
+    │  MIDI IN   │────▶│ Input Listener  │
+    └────────────┘      └────────────────┘
+                             │
+                  ┌──────────┴────────────┐
+                  ▼                       ▼
+       ┌────────────────┐      ┌────────────────────┐
+       │ Performance RNN│      │ Music Transformer  │
+       └────────────────┘      └────────────────────┘
+                  │                       │
+                  └──────────┬────────────┘
+                             ▼
+                      ┌────────────┐
+                      │ MIDI OUT   │───▶ Fluidsynth / DAW
+                      └────────────┘
+
     
 [README W.I.P]
 
